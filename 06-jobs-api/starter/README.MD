@@ -37,8 +37,8 @@ Email Validation Regex
 - Validate - email, password - in controller
 - If email or password is missing, throw BadRequestError
 - Find User
-- Compare Passwords
 - If no user or password does not match, throw UnauthenticatedError
+- Compare Passwords
 - If correct, generate Token
 - Send Response with Token
 
